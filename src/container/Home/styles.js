@@ -1,16 +1,5 @@
 import styled from "styled-components";
-import Tela from "../../assets/tela.svg"
 
-
-export const Container = styled.div`
-    background: url("${Tela}");
-    background-size: cover;
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-`
 
 export const Image = styled.img`
     margin-top: 15px;
@@ -23,7 +12,6 @@ export const ContainerItens = styled.div`
 
     display: flex;
     flex-direction: column;
-
     
     height: 80.9vh;
 `
@@ -62,20 +50,3 @@ export const Input = styled.input`
     color: #FFFFFF;
 `
 
-export const Button = styled.button`
-    margin-top: 80px;
-    width: 342px;
-    height: 74px;
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 14px;
-    border: 0;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 28px;
-    color: #FFFFFF;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-`
